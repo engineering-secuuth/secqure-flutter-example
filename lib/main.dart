@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:secuuth_flutter_package/secuuth_flutter_package.dart';
+import 'package:secqure_flutter_sdk/secqure_flutter_sdk.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -48,11 +48,10 @@ class SecondRoute extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Login Page'),
         backgroundColor: Colors.pink
-      ),
-      // body: const SecuuthAuth(keyId: '63576492-4af2-4363-919b-1b47b80b1bcb', secretId: 'TlD3JgkSt70Iq5uv'),
+      )
       body: Container(
-        child: const SecuuthAuth(keyId: 'a72ae37a-b3ea-4e39-a783-e862ba774eee', secretId: '2oUswmK2NsdaQj9Q')
-        // child: const SecuuthAuth(keyId: '63576492-4af2-4363-919b-1b47b80b1bcb', secretId: 'TlD3JgkSt70Iq5uv')
+        child: const SecuuthAuth(keyId: 'KEY_ID', secretId: 'SECRET_ID') // Replace text with your ID
+
       ),
     );
   }
@@ -81,12 +80,7 @@ class SecondRoute extends StatelessWidget {
   //   );
   //   },
   //   ),
-  //
-  //
-  //         // body: const SecuuthAuth(keyId: '63576492-4af2-4363-919b-1b47b80b1bcb', secretId: 'TlD3JgkSt70Iq5uv'),
-  //
-  //     ),
-  //     // home: const SecuuthAuth(keyId: 'a72ae37a-b3ea-4e39-a783-e862ba774eee', secretId: '2oUswmK2NsdaQj9Q')
+
   //   );
   // }
 
