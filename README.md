@@ -1,4 +1,5 @@
-# trial_app
+# Example App
+
 
 A new Flutter project.
 
